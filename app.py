@@ -52,7 +52,7 @@ st.title("U-Wert Rechner")
 
 # Eingaben für Tragkonstruktion
 st.sidebar.header("Tragkonstruktion")
-tragkonstruktion_name = st.sidebar.text_input("Name der Tragkonstruktion", "Mauerwerk")
+tragkonstruktion_name = st.sidebar.text_input("Name der Tragkonstruktion", "Bitte Namen der Tragschicht eingeben")
 tragkonstruktion_dicke = st.sidebar.slider("Dicke der Tragkonstruktion (m)", 0.1, 0.5, 0.24, 0.01)
 tragkonstruktion_lambda = st.sidebar.number_input("Wärmeleitfähigkeit der Tragkonstruktion (W/mK)", 0.1, 2.0, 0.18, 0.01)
 putz_dicke = st.sidebar.slider("Dicke des Putzes (m)", 0.005, 0.05, 0.015, 0.001)
