@@ -49,7 +49,7 @@ def erstelle_tabelle(daemmstoffe, schichtdicken, lambda_werte, r_uebergang):
 
 # Streamlit App
 st.title("U-Wert Rechner")
-
+st.sidebar.image("https://www.jung-ebs.de/wp-content/themes/ipj/icons/ipj-svg-130.png")
 # Eingaben für Tragkonstruktion
 st.sidebar.header("Tragkonstruktion")
 tragkonstruktion_name = st.sidebar.text_input("Name der Tragkonstruktion", "Bitte Namen der Tragschicht eingeben")
